@@ -44,6 +44,7 @@ print(d)
 """
 
 #Сycles
+"""
 arr = [3,4,5,6,7]
 for a in arr:
     print (a)
@@ -56,3 +57,18 @@ for s in 'строка':
 
 for i, s in enumerate('строка'):
     print (i,s)
+"""
+
+#Other operate
+    #break 
+for a in range(3,10):
+    if a % 5 == 0:
+        break
+    print (a)
+
+    #continue
+for a in range(3,10):
+    if a % 5 == 0:
+        continue
+    print (a)
+    
