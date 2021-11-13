@@ -30,6 +30,7 @@ print (a1, b1, c1)
 #Basic language constructs
 
 #Conditions
+"""
 a =1
 if a == 1:
     print (1)
@@ -40,4 +41,18 @@ else:
 
 d = "Yes" if a==1 else "No"
 print(d)
+"""
 
+#Сycles
+arr = [3,4,5,6,7]
+for a in arr:
+    print (a)
+
+for a in range(3,7):
+    print (a)
+
+for s in 'строка':
+    print (s)
+
+for i, s in enumerate('строка'):
+    print (i,s)
